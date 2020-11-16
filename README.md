@@ -2,6 +2,13 @@
 
 Simple UI for searching countries. Have fun!
 
+https://www-country-index-web-d01.azurewebsites.net/
+
+## Learning
+
+1. Material UI, before I often use Bootstrap and SASS
+2. TypeScript ReactJS
+
 ## Features
 
 - Searching is debounced
