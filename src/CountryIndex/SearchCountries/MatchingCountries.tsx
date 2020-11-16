@@ -13,7 +13,10 @@ type Props = {
 const useStyles = makeStyles((theme) => ({
   root: {
     position: 'absolute',
-    width: '500px',
+    width: '100%',
+    [theme.breakpoints.up('md')]: {
+      width: '500px',
+    },
     top: '32px',
     zIndex: 9,
   },

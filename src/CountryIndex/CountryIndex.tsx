@@ -9,7 +9,13 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     flexDirection: 'column',
-    width: '500px',
+    width: '100%',
+    boxSizing: 'border-box',
+    padding: '0 5px',
+    [theme.breakpoints.up('md')]: {
+      width: '500px',
+      padding: 0,
+    },
   },
 }));
 

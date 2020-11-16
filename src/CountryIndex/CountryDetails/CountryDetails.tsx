@@ -72,7 +72,7 @@ const CountryDetails: React.FC<Props> = ({ selectedCountry }) => {
     const { name, capital, population, flag, languages } = data.country;
     return (
       <Paper className={classes.paper}>
-        <Grid container item spacing={2}>
+        <Grid container item justify="flex-start" spacing={2}>
           <Grid item justify="flex-start">
             <img className={classes.img} alt={name} src={flag} />
           </Grid>
